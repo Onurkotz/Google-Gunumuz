@@ -1,0 +1,100 @@
+/***********************************Header****************************************************/
+.header {
+    background-color: blue;
+    width: auto;
+}
+
+.lbar {
+    float: left;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-right: 1px;
+
+}
+
+.rbar {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 25px;
+
+}
+
+.apps {
+    width: 17px;
+    height: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+
+
+    
+}
+
+.profpic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}
+
+.space {
+    margin-left: 15px;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+
+/*************************************************************Content***************************************/
+
+.logo {
+    width: 1000;
+    height: 1000;
+    text-align: center;
+}
+
+.logoek {
+    background-color: white;
+    padding-top: 114px;
+}
+
+.cl {
+    clear: both;
+}
+
+/***********************************SEARCH BAR*******************/
+
+
+  .bar{
+    margin:0 auto;
+    width: 575px;;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+  }
+  
+  .searchbar{
+    height:45px;
+    border:none;
+    width: 480px;
+    font-size:16px;
+    outline: none;
+    
+  }
+
+  .voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
+  }
+
+  .searchicon {
+    height:20px;
+    position:relative;
+    top:5px;
+    right:10px;
+  }

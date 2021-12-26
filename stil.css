@@ -1,7 +1,9 @@
 /***********************************Header****************************************************/
 .header {
-    background-color: blue;
-    width: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .lbar {
@@ -10,18 +12,33 @@
     padding-right: 10px;
     margin-top: 15px;
     font-size: 14px;
+    color: rgba(0, 0, 0, 0.829);
     margin-right: 1px;
+    font-family: Arial;
 
+}
+
+.lbar:hover {
+  text-decoration: underline;
 }
 
 .rbar {
     float: right;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-right: 20px;
     font-size: 14px;
     margin-left: 20px;
     margin-right: 25px;
+    color: rgba(0, 0, 0, 0.829);
+    font-family: Arial;
+}
 
+.rbar:hover {
+  text-decoration: underline;
+}
+
+.rb {
+  padding: 16px;
 }
 
 .apps {
@@ -31,22 +48,18 @@
     padding-right: 10px;
     margin-left: 20px;
 
-
-    
 }
 
 .profpic {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    margin-left: 20px;
-    
+    border-radius: 100%;
+    margin-left: 20px;    
 }
 
-.space {
-    margin-left: 15px;
-    margin-bottom: 1px;
-    font-size: 14px;
+
+.text {
+  text-decoration: none;
 }
 
 /*************************************************************Content***************************************/
@@ -59,7 +72,7 @@
 
 .logoek {
     background-color: white;
-    padding-top: 114px;
+    padding-top: 148px;
 }
 
 .cl {
@@ -76,8 +89,12 @@
     border:1px solid #dcdcdc;
   }
   
+  .bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+
   .searchbar{
-    height:45px;
+    height:40px;
     border:none;
     width: 480px;
     font-size:16px;
@@ -89,12 +106,83 @@
     height:20px;
     position:relative;
     top:5px;
-    left:10px;
+    left:25px;
   }
 
   .searchicon {
     height:20px;
     position:relative;
     top:5px;
-    right:10px;
+    right: 520px;
   }
+
+  /*********************************BUTTONS*******************************************/
+
+  .buttons {
+    margin-top: 30px;
+    margin-left: 530px;
+ }
+  
+  .button{
+    background-color: #f5f5f5;
+    border: 1px solid #f2f2f2;
+    color:#5f6368;
+    font-size:14px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+    height: 36px;
+    width: 127px;
+    font-family: Arial;
+  }
+  .button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 10px 11px;
+    color: black;
+    font-size: 13px;
+  
+  }
+
+  .button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
+
+  /*************************************FOOTER*****************************************/
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+   border-top: 1px solid #dbdbdb;
+    
+ }
+
+ .fl {
+   float: left;
+   padding: 16px;
+   font-family: Arial;
+   color: rgba(0, 0, 0, 0.63);
+   font-size: 14px;
+ }
+
+ .fr {
+   float: right;
+   padding: 16px;
+   font-family: Arial;
+   color: rgba(0, 0, 0, 0.63);
+   font-size: 14px;
+ }
+
+ .fl:hover {
+   text-decoration: underline;
+ }
+
+ .fr:hover {
+   text-decoration: underline;
+ }
+
+   
